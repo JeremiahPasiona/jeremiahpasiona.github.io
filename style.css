@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Shrikhand');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+
+
+
+video {
+  min-width: 100%;
+  min-height: : 100%;
+}
+
+.background-wrap {
+  position: fixed;
+  z-index: -1000;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.center {
+  text-align: center;
+    border: 3px solid green;
+}
+
+#profile_pic {
+    border-radius: 100%;
+    border: 2px solid #34459e;
+    box-shadow: 8 2px 2px black;
+}
+
+#name {
+  font-family: 'Shrikhand', cursive;
+  color: #250907;
+}
+
+#course {
+  font-family: 'Shrikhand', cursive;
+  color: #250907;
+}
+
+#content {
+  font-family: 'Roboto Slab', serif;
+  color: #250907;
+}
+
+#context {
+  font-family: 'Roboto Slab', serif;
+  color: #250907;
+}
